@@ -1,0 +1,32 @@
+[
+  {
+    "name": "contact1",
+    "surname": "surname",
+    "sursurname": "",
+    "phoneNumber": "1234589",
+    "homePhoneNumber": "",
+    "address": "",
+    "birthDate": "",
+    "note": ""
+  },
+  {
+    "name": "contact2",
+    "surname": "surname",
+    "sursurname": "",
+    "phoneNumber": "12345689",
+    "homePhoneNumber": "",
+    "address": "",
+    "birthDate": "",
+    "note": ""
+  },
+  {
+    "name": "contact3",
+    "surname": "surname",
+    "sursurname": "",
+    "phoneNumber": "12345678",
+    "homePhoneNumber": "",
+    "address": "",
+    "birthDate": "",
+    "note": ""
+  }
+]

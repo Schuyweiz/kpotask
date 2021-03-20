@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="frontend.controllers.AddContactController"
+            prefHeight="400.0" prefWidth="600.0">
+
+    <top>
+        <HBox>
+            <Label text="Add a new contact"/>
+        </HBox>
+    </top>
+
+    <center>
+
+        <VBox alignment="CENTER">
+            <HBox alignment="CENTER">
+                <Label text="Enter a name: " />
+                <TextField fx:id="nameField"  onMouseClicked="#onStartWriting"/>
+            </HBox>
+            <HBox alignment="CENTER">
+                <Label text="Enter a surname: "/>
+                <TextField fx:id="surnameField"/>
+            </HBox>
+            <HBox alignment="CENTER">
+                <Label text="Enter a patronymic name: "/>
+                <TextField fx:id="sursurnameField"/>
+            </HBox>
+            <HBox alignment="CENTER">
+                <Label text="Enter a phone number: "/>
+                <TextField fx:id="phoneNumberField"/>
+            </HBox>
+            <HBox alignment="CENTER">
+                <Label text="Enter a home number: "/>
+                <TextField fx:id="homeNumberField"/>
+            </HBox>
+            <HBox alignment="CENTER">
+                <Label text="Enter an adress: "/>
+                <TextField fx:id="adressField"/>
+            </HBox>
+            <HBox alignment="CENTER">
+                <Label text="Birth date: "/>
+                <DatePicker fx:id="birthDatePicker" editable="false"/>
+            </HBox>
+            <HBox alignment="CENTER">
+                <TextArea fx:id="noteField" prefHeight="90" wrapText="true"/>
+            </HBox>
+
+        </VBox>
+
+
+    </center>
+
+    <bottom>
+        <HBox alignment="BOTTOM_RIGHT">
+            <Button fx:id="saveButton" text="Save" onAction="#onConfirm"/>
+        </HBox>
+    </bottom>
+
+</BorderPane>

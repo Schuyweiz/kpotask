@@ -1,0 +1,4 @@
+.text-field.error {
+    -fx-text-box-border: #ff0000;
+    -fx-focus-color: red ;
+}
