@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="frontend.controllers.AddContactController"
+            prefHeight="400.0" prefWidth="600.0"
+            fx:id="bpane">
+
+
+    <right>
+
+        <VBox alignment="CENTER" translateX="-10">
+            <HBox alignment="BASELINE_RIGHT">
+                <Label text="Enter a name: " />
+                <TextField fx:id="nameField"/>
+            </HBox>
+            <HBox alignment="BASELINE_RIGHT">
+                <Label text="Enter a surname: "/>
+                <TextField fx:id="surnameField"/>
+            </HBox>
+            <HBox alignment="BASELINE_RIGHT">
+                <Label text="Enter a patronymic name: "/>
+                <TextField fx:id="sursurnameField"/>
+            </HBox>
+            <HBox alignment="BASELINE_RIGHT">
+                <Label text="Enter a phone number: "/>
+                <TextField fx:id="phoneNumberField"/>
+            </HBox>
+            <HBox alignment="BASELINE_RIGHT">
+                <Label text="Enter a home number: "/>
+                <TextField fx:id="homeNumberField"/>
+            </HBox>
+            <HBox alignment="BASELINE_RIGHT">
+                <Label text="Enter an adress: "/>
+                <TextField fx:id="adressField"/>
+            </HBox>
+            <HBox alignment="BASELINE_RIGHT">
+                <Label text="Birth date: "/>
+                <DatePicker fx:id="birthDatePicker" editable="false"/>
+            </HBox>
+            <HBox alignment="BASELINE_RIGHT">
+                <TextArea fx:id="noteField" prefHeight="90" prefWidth="200" wrapText="true"/>
+            </HBox>
+
+        </VBox>
+
+
+    </right>
+
+    <bottom>
+        <HBox alignment="BOTTOM_RIGHT">
+            <Button fx:id="saveButton" text="Save" onAction="#onConfirm"/>
+            <Button fx:id="cancelButton" text="Cancel" onAction="#onCancel"/>
+        </HBox>
+    </bottom>
+
+</BorderPane>

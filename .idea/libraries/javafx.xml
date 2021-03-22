@@ -1,0 +1,27 @@
+<component name="libraryTable">
+  <library name="javafx">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/libs/javafx11" />
+      <root url="file://$PROJECT_DIR$/libs/javafx11" />
+      <root url="file://$PROJECT_DIR$/libs/javafx11" />
+      <root url="file://$PROJECT_DIR$/libs/javafx11" />
+    </CLASSES>
+    <JAVADOC />
+    <NATIVE>
+      <root url="file://$PROJECT_DIR$/libs/javafx11" />
+      <root url="file://$PROJECT_DIR$/libs/javafx11" />
+    </NATIVE>
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/libs/javafx11" />
+      <root url="file://$PROJECT_DIR$/libs/javafx11" />
+      <root url="file://$PROJECT_DIR$/libs/javafx11" />
+      <root url="file://$PROJECT_DIR$/libs/javafx11" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/libs/javafx11" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/libs/javafx11" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/libs/javafx11" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/libs/javafx11" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/libs/javafx11" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/libs/javafx11" recursive="false" type="SOURCES" />
+  </library>
+</component>

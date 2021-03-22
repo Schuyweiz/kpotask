@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.TextFlow?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<?import java.net.URL?>
+<?import javafx.scene.image.ImageView?>
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="frontend.controllers.MainWindowController"
+            prefHeight="800.0" prefWidth="1200.0"
+            fx:id="pane">
+
+    <top>
+        <HBox>
+            <MenuBar>
+                <Menu text="File">
+                    <MenuItem fx:id="deleteContact" text="Delete" onAction="#onDeleteContact"/>
+                    <MenuItem fx:id="addContact" text="Add" onAction="#onNewContact" />
+                    <MenuItem fx:id="editContact" text="Edit" />
+                    <MenuItem fx:id="exitApplication" text="Exit"/>
+                </Menu>
+
+                <Menu text="Options">
+                    <MenuItem fx:id="importFile" text="Import" onAction="#onImport"/>
+                    <MenuItem fx:id="exportFile" text="Export" onAction="#onExport"/>
+                </Menu>
+
+                <Menu text="Help">
+
+                </Menu>
+            </MenuBar>
+        </HBox>
+    </top>
+
+    <right>
+        <VBox translateX="-20" translateY="100">
+                    <TableView fx:id="contactsTable" prefHeight="600" prefWidth="620">
+                        <columns>
+                            <TableColumn fx:id="nameCol" text="Name" style="-fx-background-color: linear-gradient(#75b6fc 0%, #5685c9 100%)">
+                                <cellValueFactory><PropertyValueFactory property="name" />
+                                </cellValueFactory>
+                            </TableColumn>
+                            <TableColumn fx:id="surnameCol" text="Surname">
+                                <cellValueFactory><PropertyValueFactory property="surname" />
+                                </cellValueFactory>
+                            </TableColumn>
+                            <TableColumn fx:id="sursurnameCol" text="Patronymic">
+                                <cellValueFactory><PropertyValueFactory property="sursurname" />
+                                </cellValueFactory>
+                            </TableColumn>
+                            <TableColumn>
+                                <columns>
+                                    <TableColumn text="Phone number">
+                                        <cellValueFactory><PropertyValueFactory property="phoneNumber" />
+                                        </cellValueFactory>
+                                    </TableColumn>
+                                    <TableColumn text="Home number">
+                                        <cellValueFactory><PropertyValueFactory property="homePhoneNumber" />
+                                        </cellValueFactory>
+                                    </TableColumn>
+                                </columns>
+                            </TableColumn>
+                            <TableColumn fx:id="addressCol" text="Address">
+                                <cellValueFactory><PropertyValueFactory property="address" />
+                                </cellValueFactory>
+                            </TableColumn>
+                            <TableColumn fx:id="notesCol" text="Notes">
+                                <cellValueFactory><PropertyValueFactory property="note" />
+                                </cellValueFactory>
+                            </TableColumn>
+                        </columns>
+                    </TableView>
+        </VBox>
+    </right>
+
+
+</BorderPane>
