@@ -5,9 +5,12 @@
       <root url="file://$PROJECT_DIR$/libs/javafx11" />
       <root url="file://$PROJECT_DIR$/libs/javafx11" />
       <root url="file://$PROJECT_DIR$/libs/javafx11" />
+      <root url="file://$PROJECT_DIR$/libs/javafx11" />
+      <root url="file://$PROJECT_DIR$/libs/javafx11" />
     </CLASSES>
     <JAVADOC />
     <NATIVE>
+      <root url="file://$PROJECT_DIR$/libs/javafx11" />
       <root url="file://$PROJECT_DIR$/libs/javafx11" />
       <root url="file://$PROJECT_DIR$/libs/javafx11" />
     </NATIVE>
@@ -16,10 +19,16 @@
       <root url="file://$PROJECT_DIR$/libs/javafx11" />
       <root url="file://$PROJECT_DIR$/libs/javafx11" />
       <root url="file://$PROJECT_DIR$/libs/javafx11" />
+      <root url="file://$PROJECT_DIR$/libs/javafx11" />
+      <root url="file://$PROJECT_DIR$/libs/javafx11" />
     </SOURCES>
     <jarDirectory url="file://$PROJECT_DIR$/libs/javafx11" recursive="false" />
     <jarDirectory url="file://$PROJECT_DIR$/libs/javafx11" recursive="false" />
     <jarDirectory url="file://$PROJECT_DIR$/libs/javafx11" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/libs/javafx11" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/libs/javafx11" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/libs/javafx11" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/libs/javafx11" recursive="false" type="SOURCES" />
     <jarDirectory url="file://$PROJECT_DIR$/libs/javafx11" recursive="false" type="SOURCES" />
     <jarDirectory url="file://$PROJECT_DIR$/libs/javafx11" recursive="false" type="SOURCES" />
     <jarDirectory url="file://$PROJECT_DIR$/libs/javafx11" recursive="false" type="SOURCES" />
